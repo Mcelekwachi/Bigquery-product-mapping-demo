@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- Project additions ---
+exports/
+*.xlsx
+*.csv
+*.parquet
+
+# Virtual env & local config
+.venv/
+.env
+
+# Credentials / private config (keep only the sample)
+*.json
+!entities.sample.json
+entities.private.json
+service_account.json
+gcloud_*.json
